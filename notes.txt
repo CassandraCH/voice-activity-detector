@@ -1,0 +1,52 @@
+###### SFTP
+// importer fichier ou dossier
+put file
+put -r folder
+// récupérer fichier ou dossier
+get file
+get -r folder
+
+####################################
+CINDY
+####################################
+########### TERMINAL 1
+sftp a175858@lisa.univ-lemans.fr
+cd {your folder}
+>>>> put or get my files
+
+########### TERMINAL 2
+ssh a175858@lisa.univ-lemans.fr
+sftp a175858@skinner.univ-lemans.fr
+cd {your folder}
+>>>> put or get my files
+
+########### TERMINAL 3
+ssh a175858@lisa.univ-lemans.fr
+ssh a175858@skinner.univ-lemans.fr
+cd {your folder}
+srun -N 1 -c 5 -p gpu --gres gpu:1 --mem 10G --pty bash
+conda activate {your conda env}
+python trainv2.py
+
+
+####################################
+CASSANDRA
+####################################
+########### TERMINAL 1
+sftp s181558@lisa.univ-lemans.fr
+cd deeplearning
+>>>> put my files
+
+########### TERMINAL 2
+ssh s181558@lisa.univ-lemans.fr
+sftp s181558@skinner.univ-lemans.fr
+cd deeplearning2
+>>>> put my files
+
+########### TERMINAL 3
+ssh s181558@lisa.univ-lemans.fr
+ssh s181558@skinner.univ-lemans.fr
+cd deeplearning2
+srun -N 1 -c 5 -p gpu --gres gpu:1 --mem 10G --pty bash
+conda activate deeplearning
+python trainv2.py
