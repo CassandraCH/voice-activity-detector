@@ -75,7 +75,7 @@ while (compteurpasameliorer != 3 and epoch < num_epochs):
 
     f.write(str(loss.data.item()))
     print("train fini")
-    f.write("train fini\n")
+    f.write("\ntrain fini\n")
 
     losstmp = loss
 
