@@ -119,3 +119,4 @@ while (compteurpasameliorer != 3 and epoch < num_epochs):
     #         compteurpasameliorer = 0
     #     else:
     #         compteurpasameliorer += 1
+    f.close()
