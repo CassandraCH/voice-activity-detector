@@ -34,7 +34,7 @@ class m2set(torch.utils.data.Dataset):
     def __getitem__(self, idx):
         """
         """
-        feats = self.cutset[idx].features.load()
+        feats = self.cutset[idx].features.load().T
         labels = self.cutset[idx].supervisions_feature_mask()
         return feats, labels
 
