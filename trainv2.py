@@ -18,19 +18,23 @@ import torch.optim as optim
 name = "result" + str(datetime.datetime.now()) + ".txt"
 f = open(name, "w")
 
-f.write("batch_size = 16, lr = 0.001, TCN taille couche [1,2,3,2], dropout = 0.2, kernel_size=2 \n")
+f.write("batch_size = 32, lr = 1e-2, TCN taille couche [1,2,3,3], dropout = 0.2, kernel_size=2 \n")
 
 tcn_model = TCN(80, [1, 2, 3, 2])
 m2s = m2set(cutset_file="lists/allies_fbank_vad.jsonl.gz")
 train = m2s
 train, valid = torch.utils.data.random_split(train, [2784, 492])
-dataloader_args = dict(shuffle=True, batch_size=16, num_workers=1, pin_memory=True)
+dataloader_args = dict(shuffle=True, batch_size=32, num_workers=2, pin_memory=True)
 train_loader = dataloader.DataLoader(train, **dataloader_args)
 valid_loader = dataloader.DataLoader(valid, **dataloader_args)
+learning_rate = 0.001
+weight_decay = 1e-4
+momentum = 0.9
 
 # cnn_model.cuda() # CUDA! @
-tcn_optimizer = optim.Adam(tcn_model.parameters(), lr=0.001)
-num_epochs = 1
+# tcn_optimizer = optim.Adam(tcn_model.parameters(), lr=learning_rate)
+tcn_optimizer = optim.SGD(tcn_model.parameters(), lr=learning_rate, weight_decay=weight_decay, momentum=momentum)
+num_epochs = 5
 loss = 1
 losstmp = 0
 compteurpasameliorer = 0
@@ -74,7 +78,7 @@ while (compteurpasameliorer != 3 and epoch < num_epochs):
                 loss.data.item()),end='')
 
     f.write(str(loss.data.item()))
-    print("train fini")
+    print(" => train fini")
     f.write("\ntrain fini\n")
 
     losstmp = loss
@@ -119,4 +123,4 @@ while (compteurpasameliorer != 3 and epoch < num_epochs):
     #         compteurpasameliorer = 0
     #     else:
     #         compteurpasameliorer += 1
-    f.close()
+f.close()
