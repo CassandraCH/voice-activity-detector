@@ -26,7 +26,7 @@ ssh a175858@skinner.univ-lemans.fr
 cd {your folder}
 srun -N 1 -c 5 -p gpu --gres gpu:1 --mem 10G --pty bash
 conda activate {your conda env}
-python trainv2.py
+python train.py
 
 
 ####################################
@@ -49,4 +49,4 @@ ssh s181558@skinner.univ-lemans.fr
 cd deeplearning2
 srun -N 1 -c 5 -p gpu --gres gpu:1 --mem 10G --pty bash
 conda activate deeplearning
-python trainv2.py
+python train.py

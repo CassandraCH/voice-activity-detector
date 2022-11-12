@@ -1,10 +1,7 @@
-import numpy as np
-import torch
 import torch.nn as nn
-import torch.nn.functional as F
-import torch.utils.data.dataloader as dataloader
-import torch.optim as optim
 from torch.nn.utils import weight_norm
+
+
 class Crop1D(nn.Module):
     def __init__(self, crop_size):
         super(Crop1D, self).__init__()
@@ -12,6 +9,7 @@ class Crop1D(nn.Module):
 
     def forward(self, x):
         return x[:, :, :-self.crop_size].contiguous()
+
 
 class TemporalBlock(nn.Module):
     def __init__(self, n_inputs, n_outputs, kernel_size, stride, dilation, padding, dropout=0.2):

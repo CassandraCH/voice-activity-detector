@@ -1,20 +1,5 @@
-import logging
-#Retrieving notices: ...working... done
-
-import os
-#import sidiar
 import torch
 
-from collections import defaultdict
-from pathlib import Path
-
-from tqdm.auto import tqdm
-
-from lhotse import validate_recordings_and_supervisions
-from lhotse.audio import Recording, RecordingSet
-from lhotse.supervision import SupervisionSegment, SupervisionSet
-from lhotse.utils import Pathlike, check_and_rglob
-from lhotse import LilcomFilesWriter
 from lhotse import CutSet
 
 
@@ -30,7 +15,6 @@ class m2set(torch.utils.data.Dataset):
         self.cutset = CutSet.from_file(cutset_file)
         self.len = len(self.cutset)
 
-
     def __getitem__(self, idx):
         """
         """
@@ -40,7 +24,6 @@ class m2set(torch.utils.data.Dataset):
 
     def __len__(self):
         return self.len
-
 
 
 if __name__ == '__main__':
@@ -53,9 +36,8 @@ if __name__ == '__main__':
     #     feats = data[0]
     #     labels = data[1]
     #     print("feature:", feats, "labels:", labels)
-    print("feats:",m2s[0][0])
-    print("target:",m2s[0][1])
+    print("feats:", m2s[0][0])
+    print("target:", m2s[0][1])
 
     # import ipdb
     # ipdb.set_trace()
-
