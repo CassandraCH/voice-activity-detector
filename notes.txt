@@ -34,7 +34,7 @@ CASSANDRA
 ####################################
 ########### TERMINAL 1
 sftp s181558@lisa.univ-lemans.fr
-cd deeplearning
+cd Documents/deeplearning
 >>>> put my files
 
 ########### TERMINAL 2

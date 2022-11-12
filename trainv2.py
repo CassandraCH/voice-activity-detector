@@ -28,13 +28,13 @@ dataloader_args = dict(shuffle=True, batch_size=32, num_workers=2, pin_memory=Tr
 train_loader = dataloader.DataLoader(train, **dataloader_args)
 valid_loader = dataloader.DataLoader(valid, **dataloader_args)
 learning_rate = 0.001
-weight_decay = 1e-4
+weight_decay = 0.0001
 momentum = 0.9
 
 # cnn_model.cuda() # CUDA! @
 # tcn_optimizer = optim.Adam(tcn_model.parameters(), lr=learning_rate)
 tcn_optimizer = optim.SGD(tcn_model.parameters(), lr=learning_rate, weight_decay=weight_decay, momentum=momentum)
-num_epochs = 5
+num_epochs = 50
 loss = 1
 losstmp = 0
 compteurpasameliorer = 0
