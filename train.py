@@ -12,7 +12,7 @@ from tcn import TCN
 name = "results_" + str(datetime.datetime.now()) + ".txt"
 f = open(name, "w")
 f.write(
-    "Parameters : batch_size = 32, lr = 0.01, weight_decay = 0.001, momentum = 0.9, TCN layer size = [1,2,3,3], "
+    "Parameters : batch_size = 32, lr = 0.01, weight_decay = 0.0001, momentum = 0.9, TCN layer size = [1,2,3,2], "
     "dropout = 0.2, kernel_size = 2 \n")
 
 tcn_model = TCN(80, [1, 2, 3, 2])
@@ -23,17 +23,19 @@ dataloader_args = dict(shuffle=True, batch_size=32, num_workers=2, pin_memory=Tr
 train_loader = dataloader.DataLoader(train, **dataloader_args)
 valid_loader = dataloader.DataLoader(valid, **dataloader_args)
 learning_rate = 0.01
-weight_decay = 0.001
+weight_decay = 0.0001
 momentum = 0.9
 
-# cnn_model.cuda() # CUDA! @
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 # tcn_optimizer = optim.Adam(tcn_model.parameters(), lr=learning_rate)
 tcn_optimizer = optim.SGD(tcn_model.parameters(), lr=learning_rate, weight_decay=weight_decay, momentum=momentum)
-num_epochs = 50
+num_epochs = 15
 loss = 1
 lossTmp = 0
 cpt = 0
 epoch = 0
+
 # tcn_model = torch.load("FinalModel.pt")
 
 # Learning loop
@@ -41,10 +43,11 @@ while cpt != 3 and epoch < num_epochs:
     epoch += 1
     tcn_model.train()
     tcn_losses = []
+    correct = 0
 
     for batch_idx, (data, target) in enumerate(train_loader):
         # Get Samples
-        # data, target = Variable(data.cuda()), Variable(target.cuda())
+        # data, target = Variable(data.to(device)), Variable(target.to(device))
         data, target = Variable(data), Variable(target)
 
         # Resetting the gradients
@@ -63,6 +66,10 @@ while cpt != 3 and epoch < num_epochs:
         loss.backward()
         tcn_optimizer.step()
 
+        # train_acc = torch.sum(pred == target)
+
+        # correct += (pred == target).sum().item()
+
         # Display
         if batch_idx % 10 == 0 or batch_idx % 10 == 1:
             print('\r Train Epoch: {} [{}/{} ({:.0f}%)]\t Loss: {:.6f}'.format(
@@ -71,10 +78,19 @@ while cpt != 3 and epoch < num_epochs:
                 len(train_loader.dataset),
                 100. * batch_idx / len(train_loader),
                 loss.data.item()), end='')
+            # print('\r Train Epoch: {} [{}/{} ({:.0f}%)]\t Loss: {:.6f}\t Accuracy : {:.6f}%'.format(
+            #     epoch,
+            #     batch_idx * len(data),
+            #     len(train_loader.dataset),
+            #     100. * batch_idx / len(train_loader),
+            #     loss.data.item()),
+            #     correct, end='')
 
-    f.write(str(loss.data.item()))
+    # accuracy = 100 * correct / len(train_loader)
+    f.write("Epoch " + str(epoch) + " => Loss : " + str(loss.data.item()))
     print(" => end of train")
     f.write(" => end of train\n")
+    # f.write(" => end of train\n Train Accuracy = " + str(accuracy) + "%")
 
     lossTmp = loss
 

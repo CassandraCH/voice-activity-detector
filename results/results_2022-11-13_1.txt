@@ -1,0 +1,16 @@
+Parameters : batch_size = 32, lr = 0.01, weight_decay = 0.0001, momentum = 0.9, TCN layer size = [1,2,3,2], dropout = 0.2, kernel_size = 2 
+Epoch 1 => Loss : 0.18932153284549713 => end of train
+Epoch 2 => Loss : 0.13635897636413574 => end of train
+Epoch 3 => Loss : 0.10880674421787262 => end of train
+Epoch 4 => Loss : 0.21002404391765594 => end of train
+Epoch 5 => Loss : 0.2303551584482193 => end of train
+Epoch 6 => Loss : 0.14012621343135834 => end of train
+Epoch 7 => Loss : 0.18593457341194153 => end of train
+Epoch 8 => Loss : 0.19593271613121033 => end of train
+Epoch 9 => Loss : 0.17838717997074127 => end of train
+Epoch 10 => Loss : 0.27928805351257324 => end of train
+Epoch 11 => Loss : 0.18805333971977234 => end of train
+Epoch 12 => Loss : 0.082363560795784 => end of train
+Epoch 13 => Loss : 0.16926732659339905 => end of train
+Epoch 14 => Loss : 0.08257964998483658 => end of train
+Epoch 15 => Loss : 0.0682445615530014 => end of train
