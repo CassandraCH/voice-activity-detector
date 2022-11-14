@@ -94,13 +94,8 @@ while cpt != 3 and epoch < num_epochs:
         str(accuracy)), end='')
     print("=> end of train")
 
-    f.write("Epoch " + str(epoch))
-    f.write(" \n\t=> F1 : " + str(f1))
-    f.write(" \n\t=> Precision : " + str(precision))
-    f.write(" \n\t=> Recall : " + str(recall))
-    f.write(" \n\t=> Accuracy : " + str(accuracy))
-    f.write(" \n\t=> Loss : " + str(loss.data.item()))
-    f.write("\n=> end of train\n\n")
+    f.write("Epoch " + str(epoch) + "  F1 : " + str(f1) + " | Precision : " + str(precision) + " | Recall : " + str(recall) + " | Accuracy : " + str(accuracy) + " | Loss : " + str(loss.data.item()))
+    f.write("\n=> end of train\n")
 
     lossTmp = loss
 
@@ -144,13 +139,9 @@ while cpt != 3 and epoch < num_epochs:
             str(accuracy)), end='')
         print("=> end of validation")
 
-        f.write("Epoch " + str(epoch))
-        f.write(" \n\t=> F1 : " + str(f1))
-        f.write(" \n\t=> Precision : " + str(precision))
-        f.write(" \n\t=> Recall : " + str(recall))
-        f.write(" \n\t=> Accuracy : " + str(accuracy))
-        f.write(" \n\t=> Loss : " + str(loss.data.item()))
-        f.write(" => end of validation \n\n")
+        f.write("Epoch " + str(epoch) + "  F1 : " + str(f1) + " | Precision : " + str(precision) + " | Recall : " + str(
+            recall) + " | Accuracy : " + str(accuracy) + " | Loss : " + str(loss.data.item()))
+        f.write(" => end of validation\n")
 
         if (loss < lossTmp):
             torch.save(tcn_model, "FinalModel" + str(datetime.datetime.now()) + ".pt")

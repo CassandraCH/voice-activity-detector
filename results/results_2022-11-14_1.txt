@@ -1,0 +1,1617 @@
+Parameters : batch_size = 32, lr = 0.01, weight_decay = 0.0001, momentum = 0.9, TCN layer size = [1,2,3,2], dropout = 0.2, kernel_size = 2 
+Epoch 1 
+	=> F1 : 0.9593157501056945 
+	=> Precision : 0.9218125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.6072607636451721
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9881529575445845 
+	=> Precision : 0.9765833333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.589677631855011
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9719205808648719 
+	=> Precision : 0.945375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.5863298773765564
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9683465066170901 
+	=> Precision : 0.9386354166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.5739949941635132
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9918402066727576 
+	=> Precision : 0.9838125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.5413557291030884
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9576094510076442 
+	=> Precision : 0.9186666666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.5449700951576233
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9794996359152347 
+	=> Precision : 0.9598229166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.5060785412788391
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9760655318059643 
+	=> Precision : 0.95325 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.4862193465232849
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.996797065631417 
+	=> Precision : 0.9936145833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.4383677542209625
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9794562415286895 
+	=> Precision : 0.9597395833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.43510985374450684
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9841269841269841 
+	=> Precision : 0.96875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.96875 
+	=> Loss : 0.40494924783706665
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9808754916479562 
+	=> Precision : 0.96246875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.3871980905532837
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.975251250246847 
+	=> Precision : 0.9516979166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.37593403458595276
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9692769370346312 
+	=> Precision : 0.9403854166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.36844149231910706
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9724432836859316 
+	=> Precision : 0.9463645833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.3452098071575165
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9699183982231092 
+	=> Precision : 0.94159375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.33580175042152405
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.959417273673257 
+	=> Precision : 0.922 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.3479727506637573
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9800796812749004 
+	=> Precision : 0.9609375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.2883108854293823
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9659295324062603 
+	=> Precision : 0.9341041666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.3173424303531647
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9599809329837713 
+	=> Precision : 0.9230416666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.3273696005344391
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9676309280567803 
+	=> Precision : 0.9372916666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.30136755108833313
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9649205091297245 
+	=> Precision : 0.93221875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.3039619028568268
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9797924515268576 
+	=> Precision : 0.9603854166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.25550153851509094
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9619321038716688 
+	=> Precision : 0.92665625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.30474820733070374
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9860154632641852 
+	=> Precision : 0.9724166666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.22585363686084747
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.999447611702294 
+	=> Precision : 0.9988958333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.96875 
+	=> Loss : 0.17642001807689667
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9825604502170008 
+	=> Precision : 0.96571875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.22801269590854645
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9581863761164227 
+	=> Precision : 0.9197291666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.3050821125507355
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9859779767091816 
+	=> Precision : 0.97234375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.20830649137496948
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9538096042457893 
+	=> Precision : 0.9116979166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.3148376941680908
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9921524369439122 
+	=> Precision : 0.9844270833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.17808321118354797
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9928661351237935 
+	=> Precision : 0.9858333333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.17165230214595795
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9741014036643816 
+	=> Precision : 0.9495104166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.2386551946401596
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9674255013633211 
+	=> Precision : 0.93690625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.2612127959728241
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.991448322232261 
+	=> Precision : 0.9830416666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.16779020428657532
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9803667493348486 
+	=> Precision : 0.9614895833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.20789377391338348
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9551077273048855 
+	=> Precision : 0.9140729166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.3031388223171234
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.984519206867189 
+	=> Precision : 0.9695104166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.1879035085439682
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9493901538158478 
+	=> Precision : 0.90365625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.32425639033317566
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9614716811718061 
+	=> Precision : 0.9258020833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.2770109176635742
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9867860007599104 
+	=> Precision : 0.9739166666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.1729087084531784
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9686457566756015 
+	=> Precision : 0.9391979166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.24653902649879456
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9557215039785923 
+	=> Precision : 0.9151979166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.29843828082084656
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9885314213767563 
+	=> Precision : 0.9773229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.16106508672237396
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9697415231727669 
+	=> Precision : 0.9412604166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.2397409826517105
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9685183195444289 
+	=> Precision : 0.9389583333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.24402953684329987
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9936684976309279 
+	=> Precision : 0.9874166666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.13401667773723602
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9724652805651441 
+	=> Precision : 0.94640625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.22602766752243042
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9914854054281198 
+	=> Precision : 0.9831145833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.14154481887817383
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9266127364107495 
+	=> Precision : 0.8632604166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.41702112555503845
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9977030695343495 
+	=> Precision : 0.9954166666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.11040645092725754
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9901380670611439 
+	=> Precision : 0.98046875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.14435221254825592
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9823663163250703 
+	=> Precision : 0.96534375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.1784144639968872
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9955584851766405 
+	=> Precision : 0.99115625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.11682546883821487
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9482967336944911 
+	=> Precision : 0.9016770833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.65625 
+	=> Loss : 0.3283964991569519
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9913105607682852 
+	=> Precision : 0.9827708333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.13471201062202454
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9728995260359271 
+	=> Precision : 0.9472291666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.65625 
+	=> Loss : 0.21936020255088806
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9806103595472211 
+	=> Precision : 0.9619583333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.1836286187171936
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9831262512313704 
+	=> Precision : 0.9668125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.17083248496055603
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9819238457826726 
+	=> Precision : 0.9644895833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.17620643973350525
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9527482177629174 
+	=> Precision : 0.9097604166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.310524582862854
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9971638540246635 
+	=> Precision : 0.99434375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.10112080723047256
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9466754443712969 
+	=> Precision : 0.89875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.3382275104522705
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9825712332614421 
+	=> Precision : 0.9657395833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.1707582026720047
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9893407027240426 
+	=> Precision : 0.97890625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.13777589797973633
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9886273249719503 
+	=> Precision : 0.9775104166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.14024922251701355
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9953745369304506 
+	=> Precision : 0.9907916666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.10601935535669327
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9949064791888057 
+	=> Precision : 0.9898645833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.10749533772468567
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9574679502842529 
+	=> Precision : 0.91840625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.28982970118522644
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9924486122553933 
+	=> Precision : 0.9850104166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.1190546452999115
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9262285455430096 
+	=> Precision : 0.86259375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.4336184859275818
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9688451602855009 
+	=> Precision : 0.9395729166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.23510904610157013
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9864543851684492 
+	=> Precision : 0.9732708333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.1476437747478485
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9848842926705474 
+	=> Precision : 0.97021875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.1553506702184677
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9780983048141151 
+	=> Precision : 0.9571354166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.18864133954048157
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9865988250880128 
+	=> Precision : 0.9735520833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.14578992128372192
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9811567055277555 
+	=> Precision : 0.9630104166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.17286893725395203
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9743644531813398 
+	=> Precision : 0.9500104166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.20700475573539734
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.949890066616349 
+	=> Precision : 0.9045625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.625 
+	=> Loss : 0.3274845480918884
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9664249608371958 
+	=> Precision : 0.93503125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.24663834273815155
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9841538583635353 
+	=> Precision : 0.9688020833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.15684202313423157
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9836214837008883 
+	=> Precision : 0.9677708333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.15923015773296356
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9687731623215495 
+	=> Precision : 0.9394375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.23490962386131287
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9217844467406443 
+	=> Precision : 0.8549166666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.46071475744247437
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9816268511053592 
+	=> Precision : 0.9639166666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.16864319145679474
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9571678416633173 
+	=> Precision : 0.9178541666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.2924272418022156
+=> end of train
+
+Epoch 1 
+	=> F1 : 0.9915913423915041 
+	=> Precision : 0.9833229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.11698264628648758
+=> end of train
+
+Start of validationEpoch 1 
+	=> F1 : 0.9926653445399314 
+	=> Precision : 0.9854375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.10478592664003372 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9928027362192333 
+	=> Precision : 0.9857083333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.10405781120061874 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9926230626357597 
+	=> Precision : 0.9853541666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.10501173883676529 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9935524453530429 
+	=> Precision : 0.9871875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.10007769614458084 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9887232103824418 
+	=> Precision : 0.9776979166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.12561622262001038 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9685016949881002 
+	=> Precision : 0.9389270833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.22995848953723907 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9927868852459016 
+	=> Precision : 0.9856770833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.10414114594459534 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9719756272554961 
+	=> Precision : 0.9454791666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.21232566237449646 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9929348082642286 
+	=> Precision : 0.98596875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.1033577173948288 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9723112826304549 
+	=> Precision : 0.9461145833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.21061404049396515 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9814485711102741 
+	=> Precision : 0.9635729166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.16363081336021423 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9814431677117483 
+	=> Precision : 0.9635625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.1636580228805542 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9720416751437536 
+	=> Precision : 0.9456041666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.21198925375938416 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9633668979294334 
+	=> Precision : 0.9293229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.25580692291259766 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.9861064905026694 
+	=> Precision : 0.97259375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.13935229182243347 => end of validation 
+
+Epoch 1 
+	=> F1 : 0.994188645507376 
+	=> Precision : 0.9884444444444445 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9166666666666666 
+	=> Loss : 0.09669489413499832 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.995064300182668 
+	=> Precision : 0.9901770833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.09792373329401016
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9514155889549109 
+	=> Precision : 0.9073333333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.32170307636260986
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9793260362232937 
+	=> Precision : 0.9594895833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.18059435486793518
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9754207712093237 
+	=> Precision : 0.9520208333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.20064677298069
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9842828349089293 
+	=> Precision : 0.9690520833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.15418803691864014
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9764476335682529 
+	=> Precision : 0.9539791666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.19528867304325104
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9844816095966488 
+	=> Precision : 0.9694375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.15310829877853394
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9769330370701919 
+	=> Precision : 0.95490625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.19255226850509644
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9311481250556694 
+	=> Precision : 0.8711666666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.42052677273750305
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9558350872040853 
+	=> Precision : 0.91540625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.3001837432384491
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9969228518737168 
+	=> Precision : 0.9938645833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.0856795459985733
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.992765749838685 
+	=> Precision : 0.9856354166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.10777691751718521
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9462187364504038 
+	=> Precision : 0.8979270833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.59375 
+	=> Loss : 0.3477490544319153
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9744247163643357 
+	=> Precision : 0.950125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.20508858561515808
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9623809034852112 
+	=> Precision : 0.9274895833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.26715490221977234
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9909341742215215 
+	=> Precision : 0.98203125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.1173015609383583
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9743754106504704 
+	=> Precision : 0.95003125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.20529454946517944
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9858869263922927 
+	=> Precision : 0.9721666666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.14406102895736694
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.976905779416623 
+	=> Precision : 0.9548541666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.19186922907829285
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9849379596195632 
+	=> Precision : 0.9703229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.14940877258777618
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9617187880229937 
+	=> Precision : 0.9262604166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.271065890789032
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9711162317131986 
+	=> Precision : 0.9438541666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.22174523770809174
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9676808843533757 
+	=> Precision : 0.9373854166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.23966491222381592
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9910826418921405 
+	=> Precision : 0.9823229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.11516206711530685
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9774669940192471 
+	=> Precision : 0.9559270833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.1886562556028366
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9786853765831707 
+	=> Precision : 0.9582604166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.18185202777385712
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9765403866758352 
+	=> Precision : 0.95415625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.19286246597766876
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9711493119561024 
+	=> Precision : 0.9439166666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.2225402444601059
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9788537633493597 
+	=> Precision : 0.9585833333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.18099837005138397
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9649037683972181 
+	=> Precision : 0.9321875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.2550414800643921
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9638424177010253 
+	=> Precision : 0.9302083333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.2602575123310089
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9726742039562745 
+	=> Precision : 0.9468020833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.2133990228176117
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9682633507797134 
+	=> Precision : 0.9384791666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.23695670068264008
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9931090903369939 
+	=> Precision : 0.9863125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.10266617685556412
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9818374651995228 
+	=> Precision : 0.9643229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.1646658480167389
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9721077145457465 
+	=> Precision : 0.9457291666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.21653489768505096
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9624874363712999 
+	=> Precision : 0.9276875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.267307311296463
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9870746504879978 
+	=> Precision : 0.9744791666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.1354558765888214
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9796948649955628 
+	=> Precision : 0.9601979166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.17556005716323853
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.951942182143715 
+	=> Precision : 0.9082916666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.32205748558044434
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9873684765697107 
+	=> Precision : 0.9750520833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.13339701294898987
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9653388515261252 
+	=> Precision : 0.933 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.2522658705711365
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9573603840389252 
+	=> Precision : 0.9182083333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.29472631216049194
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9710941770361082 
+	=> Precision : 0.9438125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.22129441797733307
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9978129355207458 
+	=> Precision : 0.9956354166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.07502619177103043
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.984427894380501 
+	=> Precision : 0.9693333333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.14943042397499084
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9985395368245358 
+	=> Precision : 0.9970833333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.07068418711423874
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9687233116872654 
+	=> Precision : 0.93934375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.2341075837612152
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9913635504003027 
+	=> Precision : 0.982875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.11038654297590256
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9832824091970579 
+	=> Precision : 0.9671145833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.1552349328994751
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9760600711424929 
+	=> Precision : 0.9532395833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.19421152770519257
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9799767307191695 
+	=> Precision : 0.9607395833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.1738557368516922
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9807240044805674 
+	=> Precision : 0.9621770833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.16956792771816254
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9586779548868918 
+	=> Precision : 0.9206354166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.28785863518714905
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9718324943772089 
+	=> Precision : 0.9452083333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.21749281883239746
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9943221102474387 
+	=> Precision : 0.9887083333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.09290662407875061
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9587852494577006 
+	=> Precision : 0.9208333333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.2869356572628021
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9782668852040273 
+	=> Precision : 0.9574583333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.1827521026134491
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9886060146336068 
+	=> Precision : 0.97746875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.12500903010368347
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9906901681657371 
+	=> Precision : 0.9815520833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.11270280182361603
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9854528737575761 
+	=> Precision : 0.9713229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.1421784907579422
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9392616819331956 
+	=> Precision : 0.8854791666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.3907880485057831
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9858065742975919 
+	=> Precision : 0.9720104166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.13980768620967865
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9616233288625449 
+	=> Precision : 0.9260833333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.625 
+	=> Loss : 0.27350053191185
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9718159764802904 
+	=> Precision : 0.9451770833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.2178415060043335
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9625434975252339 
+	=> Precision : 0.9277916666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.26847678422927856
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9759453837538001 
+	=> Precision : 0.9530208333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.19481824338436127
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9817240684366283 
+	=> Precision : 0.9641041666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.16310662031173706
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9899361871143213 
+	=> Precision : 0.9800729166666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.11622786521911621
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9333214813497928 
+	=> Precision : 0.8749791666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.4215364456176758
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.991871967739903 
+	=> Precision : 0.983875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.1051831766963005
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9845460603560436 
+	=> Precision : 0.9695625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.14680875837802887
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9354092852271404 
+	=> Precision : 0.87865625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.6875 
+	=> Loss : 0.41088631749153137
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.971733379034072 
+	=> Precision : 0.9450208333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.21794956922531128
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.993235803051754 
+	=> Precision : 0.9865625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.09716612845659256
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.974002725305261 
+	=> Precision : 0.9493229166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.20534023642539978
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9921259842519685 
+	=> Precision : 0.984375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.10354868322610855
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9807240044805674 
+	=> Precision : 0.9621770833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.16835491359233856
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.984035601085812 
+	=> Precision : 0.9685729166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.14940501749515533
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9763930650630158 
+	=> Precision : 0.953875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.19196917116641998
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9714304081599854 
+	=> Precision : 0.9444479166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.2196829468011856
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9719150759015822 
+	=> Precision : 0.9453645833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.21713876724243164
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9757651087982844 
+	=> Precision : 0.9526770833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.19571898877620697
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9792446410343655 
+	=> Precision : 0.9593333333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.17637962102890015
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9504354053123275 
+	=> Precision : 0.9055520833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.3331873416900635
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9726961909500955 
+	=> Precision : 0.94684375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.21264459192752838
+=> end of train
+
+Epoch 2 
+	=> F1 : 0.9707577260178509 
+	=> Precision : 0.9431770833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.22303861379623413
+=> end of train
+
+Start of validationEpoch 2 
+	=> F1 : 0.9968756857295117 
+	=> Precision : 0.9937708333333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.96875 
+	=> Loss : 0.07064548879861832 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9670922031600523 
+	=> Precision : 0.93628125 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.2386079728603363 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.996440499898076 
+	=> Precision : 0.99290625 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.07317057996988297 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9663637538223007 
+	=> Precision : 0.9349166666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.875 
+	=> Loss : 0.24259579181671143 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9975879459950505 
+	=> Precision : 0.9951875 
+	=> Recall : 1.0 
+	=> Accuracy : 0.96875 
+	=> Loss : 0.06650646775960922 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9894098574646819 
+	=> Precision : 0.9790416666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.11367823928594589 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9920889481503258 
+	=> Precision : 0.9843020833333334 
+	=> Recall : 1.0 
+	=> Accuracy : 0.84375 
+	=> Loss : 0.09830906987190247 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9553123996800645 
+	=> Precision : 0.9144479166666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.71875 
+	=> Loss : 0.3023967146873474 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9756995385313024 
+	=> Precision : 0.9525520833333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.75 
+	=> Loss : 0.1910700649023056 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.98845148781927 
+	=> Precision : 0.9771666666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.78125 
+	=> Loss : 0.11915542930364609 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9921577273156751 
+	=> Precision : 0.9844375 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.09791344404220581 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.974282264699283 
+	=> Precision : 0.9498541666666667 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.19895339012145996 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9991242337044913 
+	=> Precision : 0.99825 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9375 
+	=> Loss : 0.05755886808037758 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.967864016084119 
+	=> Precision : 0.9377291666666666 
+	=> Recall : 1.0 
+	=> Accuracy : 0.8125 
+	=> Loss : 0.2343776673078537 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.987160144751696 
+	=> Precision : 0.9746458333333333 
+	=> Recall : 1.0 
+	=> Accuracy : 0.90625 
+	=> Loss : 0.12652139365673065 => end of validation 
+
+Epoch 2 
+	=> F1 : 0.9842702969598646 
+	=> Precision : 0.9690277777777778 
+	=> Recall : 1.0 
+	=> Accuracy : 0.9166666666666666 
+	=> Loss : 0.14293642342090607 => end of validation 
+
