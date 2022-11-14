@@ -63,12 +63,8 @@ while cpt != 3 and epoch < num_epochs:
         pred = tcn_model(data)
         # Calculation of the cross entropy loss
         loss = F.cross_entropy(pred, target.long())
-        # loss = loss.type(torch.LongTensor)
 
         accuracy = accuracy_score(target, torch.max(pred, 1)[1].float())
-
-        pred = torch.tensor(pred, requires_grad = False)
-        target = torch.tensor(target, requires_grad = False)
 
         # Saving losses for display
         tcn_losses.append(loss.data.item())
@@ -87,15 +83,16 @@ while cpt != 3 and epoch < num_epochs:
                 loss.data.item(), accuracy)
                 , end='')
 
-        f1 = f1_score(target, torch.max(pred, 1)[1].float())
-        precision = precision_score(target, torch.max(pred, 1)[1].float())
-        recall = recall_score(target, torch.max(pred, 1)[1].float())
+        f1 = f1_score(target, torch.max(pred, 1)[1].float(), average='micro')
+        precision = precision_score(target, torch.max(pred, 1)[1].float(), average='micro')
+        recall = recall_score(target, torch.max(pred, 1)[1].float(), average='micro')
 
-        print('\nF1: {}'.format(str(f1)))
-        print('\nPrecision: {}'.format(str(precision)))
-        print('\nRecall: {}'.format(str(recall)))
-        print('\nAccuracy: {}'.format(str(accuracy)))
-        print(" \n=> end of train")
+        print('F1: {} | Precision: {} | Recall: {} | Accuracy: {}'.format(
+            str(f1),
+            str(precision),
+            str(recall),
+            str(accuracy)), end='')
+        print("=> end of train")
 
         f.write("Epoch " + str(epoch))
         f.write(" \n\t=> F1 : " + str(f1))
@@ -135,16 +132,17 @@ while cpt != 3 and epoch < num_epochs:
                     100. * batch_idx / len(valid_loader),
                     loss.data.item()), end='')
 
-            f1 = f1_score(target, torch.max(pred, 1)[1].float())
-            precision = precision_score(target, torch.max(pred, 1)[1].float())
-            recall = recall_score(target, torch.max(pred, 1)[1].float())
+            f1 = f1_score(target, torch.max(pred, 1)[1].float(), average='micro')
+            precision = precision_score(target, torch.max(pred, 1)[1].float(), average='micro')
+            recall = recall_score(target, torch.max(pred, 1)[1].float(), average='micro')
             accuracy = accuracy_score(target, torch.max(pred, 1)[1].float())
 
-            print('\nF1: {}'.format(str(f1)))
-            print('\nPrecision: {}'.format(str(precision)))
-            print('\nRecall: {}'.format(str(recall)))
-            print('\nAccuracy: {}'.format(str(accuracy)))
-            print(" \n=> end of validation")
+            print('F1: {} | Precision: {} | Recall: {} | Accuracy: {}'.format(
+                str(f1),
+                str(precision),
+                str(recall),
+                str(accuracy)), end='')
+            print("=> end of validation")
 
             f.write("Epoch " + str(epoch))
             f.write(" \n\t=> F1 : " + str(f1))
