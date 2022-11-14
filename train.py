@@ -36,7 +36,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # tcn_optimizer = optim.Adam(tcn_model.parameters(), lr=learning_rate)
 tcn_optimizer = optim.SGD(tcn_model.parameters(), lr=learning_rate, weight_decay=weight_decay, momentum=momentum)
-num_epochs = 2
+num_epochs = 15
 loss = 1
 lossTmp = 0
 cpt = 0
@@ -83,24 +83,24 @@ while cpt != 3 and epoch < num_epochs:
                 loss.data.item(), accuracy)
                 , end='')
 
-        f1 = f1_score(target, torch.max(pred, 1)[1].float(), average='micro')
-        precision = precision_score(target, torch.max(pred, 1)[1].float(), average='micro')
-        recall = recall_score(target, torch.max(pred, 1)[1].float(), average='micro')
+    f1 = f1_score(target, torch.max(pred, 1)[1].float(), average='micro')
+    precision = precision_score(target, torch.max(pred, 1)[1].float(), average='micro')
+    recall = recall_score(target, torch.max(pred, 1)[1].float(), average='micro')
 
-        print('F1: {} | Precision: {} | Recall: {} | Accuracy: {}'.format(
-            str(f1),
-            str(precision),
-            str(recall),
-            str(accuracy)), end='')
-        print("=> end of train")
+    print('F1: {} | Precision: {} | Recall: {} | Accuracy: {}'.format(
+        str(f1),
+        str(precision),
+        str(recall),
+        str(accuracy)), end='')
+    print("=> end of train")
 
-        f.write("Epoch " + str(epoch))
-        f.write(" \n\t=> F1 : " + str(f1))
-        f.write(" \n\t=> Precision : " + str(precision))
-        f.write(" \n\t=> Recall : " + str(recall))
-        f.write(" \n\t=> Accuracy : " + str(accuracy))
-        f.write(" \n\t=> Loss : " + str(loss.data.item()))
-        f.write("\n=> end of train\n\n")
+    f.write("Epoch " + str(epoch))
+    f.write(" \n\t=> F1 : " + str(f1))
+    f.write(" \n\t=> Precision : " + str(precision))
+    f.write(" \n\t=> Recall : " + str(recall))
+    f.write(" \n\t=> Accuracy : " + str(accuracy))
+    f.write(" \n\t=> Loss : " + str(loss.data.item()))
+    f.write("\n=> end of train\n\n")
 
     lossTmp = loss
 
@@ -132,25 +132,25 @@ while cpt != 3 and epoch < num_epochs:
                     100. * batch_idx / len(valid_loader),
                     loss.data.item()), end='')
 
-            f1 = f1_score(target, torch.max(pred, 1)[1].float(), average='micro')
-            precision = precision_score(target, torch.max(pred, 1)[1].float(), average='micro')
-            recall = recall_score(target, torch.max(pred, 1)[1].float(), average='micro')
-            accuracy = accuracy_score(target, torch.max(pred, 1)[1].float())
+        f1 = f1_score(target, torch.max(pred, 1)[1].float(), average='micro')
+        precision = precision_score(target, torch.max(pred, 1)[1].float(), average='micro')
+        recall = recall_score(target, torch.max(pred, 1)[1].float(), average='micro')
+        accuracy = accuracy_score(target, torch.max(pred, 1)[1].float())
 
-            print('F1: {} | Precision: {} | Recall: {} | Accuracy: {}'.format(
-                str(f1),
-                str(precision),
-                str(recall),
-                str(accuracy)), end='')
-            print("=> end of validation")
+        print('F1: {} | Precision: {} | Recall: {} | Accuracy: {}'.format(
+            str(f1),
+            str(precision),
+            str(recall),
+            str(accuracy)), end='')
+        print("=> end of validation")
 
-            f.write("Epoch " + str(epoch))
-            f.write(" \n\t=> F1 : " + str(f1))
-            f.write(" \n\t=> Precision : " + str(precision))
-            f.write(" \n\t=> Recall : " + str(recall))
-            f.write(" \n\t=> Accuracy : " + str(accuracy))
-            f.write(" \n\t=> Loss : " + str(loss.data.item()))
-            f.write(" => end of validation \n\n")
+        f.write("Epoch " + str(epoch))
+        f.write(" \n\t=> F1 : " + str(f1))
+        f.write(" \n\t=> Precision : " + str(precision))
+        f.write(" \n\t=> Recall : " + str(recall))
+        f.write(" \n\t=> Accuracy : " + str(accuracy))
+        f.write(" \n\t=> Loss : " + str(loss.data.item()))
+        f.write(" => end of validation \n\n")
 
         if (loss < lossTmp):
             torch.save(tcn_model, "FinalModel" + str(datetime.datetime.now()) + ".pt")
