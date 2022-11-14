@@ -1,0 +1,12 @@
+Parameters : batch_size = 32 , lr = 0.01, weight_decay = 0.0001, momentum = 0.9, TCN layer size = [1,2,3,2], optimizer = Adam, num_epochs = 15
+Epoch 1
+ TRAIN =>  F1 : 0.9817456697673926 | Precision : 0.9641458333333334 | Recall : 1.0 | Accuracy : 0.75 | Loss : 0.14704863727092743
+VALIDATION =>  F1 : 0.9427002261446739 | Precision : 0.8916111111111111 | Recall : 1.0 | Accuracy : 0.75 | Loss : 0.30339357256889343
+
+Epoch 2
+ TRAIN =>  F1 : 0.9939163378554697 | Precision : 0.98790625 | Recall : 1.0 | Accuracy : 0.84375 | Loss : 0.09751538187265396
+VALIDATION =>  F1 : 0.9560224455174213 | Precision : 0.91575 | Recall : 1.0 | Accuracy : 0.8333333333333334 | Loss : 0.24959079921245575
+
+Epoch 3
+ TRAIN =>  F1 : 0.9860475923911322 | Precision : 0.9724791666666667 | Recall : 1.0 | Accuracy : 0.84375 | Loss : 0.0858600065112114
+VALIDATION =>  F1 : 0.9565066160379135 | Precision : 0.9166388888888889 | Recall : 1.0 | Accuracy : 0.75 | Loss : 0.28030481934547424

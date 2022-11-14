@@ -31,12 +31,11 @@ weight_decay = 0.0001
 momentum = 0.9
 num_epochs = 15
 
-
-name = "results_SGD.txt"
+name = "results_Adam_2.txt"
 append_new_line(name,
         "Parameters : batch_size = " + str(batch_size) + " , lr = " + str(learning_rate) + ", weight_decay = " + str(
             weight_decay) + ", momentum = " + str(momentum) + ", TCN layer size = [1,2,3,2], "
-                                                              "optimizer = SGD, num_epochs = " + str(num_epochs))
+                                                              "optimizer = Adam, num_epochs = " + str(num_epochs))
 
 tcn_model = TCN(80, [1, 2, 3, 2])
 m2s = m2set(cutset_file="lists/allies_fbank_vad.jsonl.gz")
@@ -47,8 +46,8 @@ dataloader_args = dict(shuffle=True, batch_size=batch_size, num_workers=2, pin_m
 train_loader = dataloader.DataLoader(train, **dataloader_args)
 valid_loader = dataloader.DataLoader(valid, **dataloader_args)
 
-# tcn_optimizer = optim.Adam(tcn_model.parameters(), lr=learning_rate)
-tcn_optimizer = optim.SGD(tcn_model.parameters(), lr=learning_rate, weight_decay=weight_decay, momentum=momentum)
+tcn_optimizer = optim.Adam(tcn_model.parameters(), lr=learning_rate)
+# tcn_optimizer = optim.SGD(tcn_model.parameters(), lr=learning_rate, weight_decay=weight_decay, momentum=momentum)
 
 loss = 1
 lossTmp = 0
