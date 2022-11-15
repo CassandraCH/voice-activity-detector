@@ -26,12 +26,12 @@ def append_new_line(file_name, text_to_append):
 
 
 batch_size = 32
-learning_rate = 0.01
+learning_rate = 1e-6
 weight_decay = 0.0001
 momentum = 0.9
 num_epochs = 15
 
-name = "results_Adam_2.txt"
+name = "results_Adam_lr_lower.txt"
 append_new_line(name,
         "Parameters : batch_size = " + str(batch_size) + " , lr = " + str(learning_rate) + ", weight_decay = " + str(
             weight_decay) + ", momentum = " + str(momentum) + ", TCN layer size = [1,2,3,2], "
