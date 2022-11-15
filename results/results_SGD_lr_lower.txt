@@ -1,0 +1,60 @@
+Parameters : batch_size = 32 , lr = 1e-06, weight_decay = 0.0001, momentum = 0.9, TCN layer size = [1,2,3,2], optimizer = SGD, num_epochs = 15
+Epoch 1
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.03125 | Loss : 0.8592803478240967
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8436505794525146
+
+Epoch 2
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.856988787651062
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8592320680618286
+
+Epoch 3
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8514499664306641
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.854749321937561
+
+Epoch 4
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8573996424674988
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8572043776512146
+
+Epoch 5
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.852712869644165
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8543453812599182
+
+Epoch 6
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.09375 | Loss : 0.8299940824508667
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8666757941246033
+
+Epoch 7
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8637505769729614
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8528167009353638
+
+Epoch 8
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8575752973556519
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8649353981018066
+
+Epoch 9
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8525522351264954
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8569726943969727
+
+Epoch 10
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8552711606025696
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8497438430786133
+
+Epoch 11
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8573225140571594
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8457234501838684
+
+Epoch 12
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8543358445167542
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8354440927505493
+
+Epoch 13
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.854555606842041
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8317862153053284
+
+Epoch 14
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0625 | Loss : 0.826772153377533
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8547759056091309
+
+Epoch 15
+ TRAIN =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8429837822914124
+VALIDATION =>  F1 : 0.0 | Precision : 0.0 | Recall : 0.0 | Accuracy : 0.0 | Loss : 0.8173635005950928
